@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Signika:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-operators {
+        @apply bg-yellow-100 rounded-full p-4 m-1 h-16 w-16 font-bold text-xl md:text-4xl md:h-20 md:w-20 lg:h-24 lg:w-24 hover:shadow-xl hover:bg-yellow-200 active:bg-yellow-300 transition-transform hover:scale-110;
+    }
+    .btn-numbers {
+        @apply bg-sky-100 w-16 h-16 rounded-full m-3 font-bold text-xl md:h-20 md:w-20 md:text-4xl lg:h-24 lg:w-24 hover:shadow-xl hover:bg-sky-200 active:bg-sky-300 transition-transform hover:scale-110;
+    }
+}
