@@ -1,9 +1,9 @@
-## Basic calculator using TypeScript
+# Basic calculator using TypeScript
 
-# Stack : 
+## Stack : 
 HTML TailwindCSS TypeScript + Vite.
 
-# My approach : 
+## My approach : 
 I built basic calculator interface using TailwindCSS, 
 Added nice effects and active and focus effects for detailing, 
 used Typescript to write the calculatory functionality and also implemented type safety which typescript forces us to, 
